@@ -1,0 +1,21 @@
+
+body {
+    background-image: url("../images/creampaper.png");
+    margin: 0;
+    height: 100%;
+}
+
+.nav {
+    background-color: #ffffff;
+    width: 100%; 
+    position: fixed;
+
+}
+ ul {
+    list-style-type: none;
+}
+
+h2 {
+    margin: 0;
+}
+

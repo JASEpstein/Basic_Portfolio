@@ -1,3 +1,8 @@
+* {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+}
+
 
 body {
     background-image: url("../images/creampaper.png");
@@ -12,41 +17,55 @@ a:link a:visited {
 .navbar {
     background-color: #ffffff;
     width: 100%; 
-    position: fixed;
     border-bottom: 2px solid #cccccc;
 }
 
-.navcontent {
+.navcontent, 
+.portfoliobox {
     max-width: 960px;
     margin: 0 auto;
 }
+
 h1 {
     display: inline-block;
     background: #4aaaa5;
     color: #ffffff;
+    border: 1px solid #cccccc;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    margin: 0 auto;
+    padding: 15px;
+    margin-top: 25px;
 }
 
  ul {
     list-style-type: none;
     float: right;
-    text-align: center;
+    text-align: right;
     display: inline;
     width: 243px;
-    margin-top: 25px;
+    margin-top: 45px;
     color: #777777;
+    padding-right: 3px;
+
 }
 
 ul li{
     display: inline;
     padding-left: 3px;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
 
+}
+li a {
+    color: #777777;
+    text-decoration: none;
 }
 
 li+li {
     border-left: 1px solid #cccccc;
+}
+
+.clearfix {
+    clear: both;
 }
 
 h2 {
@@ -54,5 +73,28 @@ h2 {
 }
 
 .portfoliobox {
-    margin: 0 auto;
+    background: #ffffff;
+    border: 2px solid #cccccc;
+    width: 960px;
+    margin-top: 2%;
+    margin-bottom: 2%
+}
+
+.pbox {
+    display: inline-block;
+    max-width: 25%;
+    max-height: 35%;
+
+}
+
+.footer {
+    background: #666666;
+    border-top: 3px solid #4aaaa5;
+    color: #cccccc;
+    text-align: center;
+    overflow: auto;
+}
+
+.footer p {
+    font-size: 10px;
 }

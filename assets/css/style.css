@@ -11,6 +11,8 @@ html, body {
 
 body {
     background-image: url("../images/creampaper.png");
+    display: flex;
+    flex-direction: column;
 }
 
 a:link a:visited {
@@ -91,6 +93,7 @@ h2 {
     margin-bottom: 2%;
     padding: 18px;
     overflow: auto;
+    flex-grow: 1;
 }
 
 .portfoliobox h2 {
@@ -192,7 +195,6 @@ input {
     border-top: 8px solid #4aaaa5;
     color: #cccccc;
     text-align: center;
-    overflow: auto;
 }
 
 .footer p {
